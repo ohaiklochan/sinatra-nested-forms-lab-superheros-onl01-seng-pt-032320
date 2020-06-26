@@ -1,5 +1,9 @@
 class Team
-  attr_accessor
+  attr_reader :name, :motto
+  
+  def initialize(params)
+    
+  end
   
   
   
