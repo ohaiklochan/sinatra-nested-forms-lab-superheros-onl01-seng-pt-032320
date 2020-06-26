@@ -1,5 +1,9 @@
 class Superhero
-  attr_accessor
+  attr_reader :name, :power, :bio
+  
+  def initialize(params)
+    
+  end
   
   
   
